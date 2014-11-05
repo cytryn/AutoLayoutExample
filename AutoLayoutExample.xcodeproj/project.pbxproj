@@ -14,6 +14,10 @@
 		5E7020221A003664003DBC10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E7020211A003664003DBC10 /* Images.xcassets */; };
 		5E7020251A003664003DBC10 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E7020231A003664003DBC10 /* LaunchScreen.xib */; };
 		5E7020311A003665003DBC10 /* AutoLayoutExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7020301A003665003DBC10 /* AutoLayoutExampleTests.m */; };
+		5E70203B1A0036B9003DBC10 /* Apple_logo_black.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E70203A1A0036B9003DBC10 /* Apple_logo_black.svg.png */; };
+		5EF447961A0A8AD50048B16B /* ElasticCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF447951A0A8AD50048B16B /* ElasticCell.m */; };
+		5EF447991A0A8C3E0048B16B /* ElasticTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF447981A0A8C3E0048B16B /* ElasticTableViewController.m */; };
+		5EF4479C1A0A95C90048B16B /* PlantZombieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF4479B1A0A95C90048B16B /* PlantZombieViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,13 @@
 		5E70202A1A003664003DBC10 /* AutoLayoutExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayoutExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E70202F1A003664003DBC10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E7020301A003665003DBC10 /* AutoLayoutExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutExampleTests.m; sourceTree = "<group>"; };
+		5E70203A1A0036B9003DBC10 /* Apple_logo_black.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Apple_logo_black.svg.png; sourceTree = "<group>"; };
+		5EF447941A0A8AD50048B16B /* ElasticCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElasticCell.h; sourceTree = "<group>"; };
+		5EF447951A0A8AD50048B16B /* ElasticCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElasticCell.m; sourceTree = "<group>"; };
+		5EF447971A0A8C3E0048B16B /* ElasticTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElasticTableViewController.h; sourceTree = "<group>"; };
+		5EF447981A0A8C3E0048B16B /* ElasticTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElasticTableViewController.m; sourceTree = "<group>"; };
+		5EF4479A1A0A95C90048B16B /* PlantZombieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlantZombieViewController.h; sourceTree = "<group>"; };
+		5EF4479B1A0A95C90048B16B /* PlantZombieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlantZombieViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +92,17 @@
 		5E7020131A003664003DBC10 /* AutoLayoutExample */ = {
 			isa = PBXGroup;
 			children = (
+				5E70203A1A0036B9003DBC10 /* Apple_logo_black.svg.png */,
 				5E7020181A003664003DBC10 /* AppDelegate.h */,
 				5E7020191A003664003DBC10 /* AppDelegate.m */,
 				5E70201B1A003664003DBC10 /* ViewController.h */,
 				5E70201C1A003664003DBC10 /* ViewController.m */,
+				5EF447971A0A8C3E0048B16B /* ElasticTableViewController.h */,
+				5EF447981A0A8C3E0048B16B /* ElasticTableViewController.m */,
+				5EF447941A0A8AD50048B16B /* ElasticCell.h */,
+				5EF447951A0A8AD50048B16B /* ElasticCell.m */,
+				5EF4479A1A0A95C90048B16B /* PlantZombieViewController.h */,
+				5EF4479B1A0A95C90048B16B /* PlantZombieViewController.m */,
 				5E70201E1A003664003DBC10 /* Main.storyboard */,
 				5E7020211A003664003DBC10 /* Images.xcassets */,
 				5E7020231A003664003DBC10 /* LaunchScreen.xib */,
@@ -201,6 +219,7 @@
 				5E7020201A003664003DBC10 /* Main.storyboard in Resources */,
 				5E7020251A003664003DBC10 /* LaunchScreen.xib in Resources */,
 				5E7020221A003664003DBC10 /* Images.xcassets in Resources */,
+				5E70203B1A0036B9003DBC10 /* Apple_logo_black.svg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +237,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EF447991A0A8C3E0048B16B /* ElasticTableViewController.m in Sources */,
 				5E70201D1A003664003DBC10 /* ViewController.m in Sources */,
+				5EF4479C1A0A95C90048B16B /* PlantZombieViewController.m in Sources */,
+				5EF447961A0A8AD50048B16B /* ElasticCell.m in Sources */,
 				5E70201A1A003664003DBC10 /* AppDelegate.m in Sources */,
 				5E7020171A003664003DBC10 /* main.m in Sources */,
 			);
@@ -411,6 +433,7 @@
 				5E7020361A003665003DBC10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E7020371A003665003DBC10 /* Build configuration list for PBXNativeTarget "AutoLayoutExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +442,7 @@
 				5E7020391A003665003DBC10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
